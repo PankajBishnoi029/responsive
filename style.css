@@ -1,0 +1,32 @@
+body{
+    background-image: url(https://i.postimg.cc/D0zmvb5R/pexels-simon-berger-1323550.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-container{
+    opacity: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #CAE5DF;
+    padding: 10px;
+    gap: 10px;
+}
+
+@media screen and (max-width:1280px) {
+    .grid-container{
+        display: flex;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+}
+
+
+.grid-container > div{
+    text-align: center;
+    background-color:  #7E99B6;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+}
